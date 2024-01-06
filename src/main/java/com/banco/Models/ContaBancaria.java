@@ -1,6 +1,6 @@
-package org.acme.ana.Models;
+package com.banco.Models;
 
-import org.acme.ana.Exceptions.SaldoInsuficienteException;
+import com.banco.Exceptions.SaldoInsuficienteException;
 
 public class ContaBancaria {
     private String numeroConta;

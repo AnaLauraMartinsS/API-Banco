@@ -1,8 +1,8 @@
-package org.acme.ana.Service;
+package com.banco.Service;
 
-import org.acme.ana.Exceptions.ContaInvalidaException;
-import org.acme.ana.Exceptions.SaldoInsuficienteException;
-import org.acme.ana.Models.ContaCorrente;
+import com.banco.Exceptions.ContaInvalidaException;
+import com.banco.Models.ContaCorrente;
+import com.banco.Exceptions.SaldoInsuficienteException;
 
 public interface ContaCorrenteService {
     ContaCorrente getContaPorNumero(String numeroConta);

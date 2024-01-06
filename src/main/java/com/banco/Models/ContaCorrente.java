@@ -1,6 +1,6 @@
-package org.acme.ana.Models;
+package com.banco.Models;
 
-import org.acme.ana.Exceptions.SaldoInsuficienteException;
+import com.banco.Exceptions.SaldoInsuficienteException;
 
 public class ContaCorrente extends ContaBancaria{
 
@@ -16,5 +16,13 @@ public class ContaCorrente extends ContaBancaria{
     public void sacar(double valor) throws SaldoInsuficienteException {
         double taxa = valor * taxaManutencao;
         super.sacar(valor + taxa);
+    }
+
+    @Override
+    public String toString() {
+        return "\nConta Corrente:\n" +
+                " Numero da Conta =" + getNumeroConta() +
+                "\n Saldo =" + getSaldo() +
+                "\n Titular =" + getTitular();
     }
 }

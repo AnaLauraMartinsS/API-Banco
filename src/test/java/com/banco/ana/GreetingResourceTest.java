@@ -1,4 +1,4 @@
-package org.acme.ana.ana;
+package com.banco.ana;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,10 @@
-package org.acme.ana.Service;
+package com.banco.Service;
 
-import org.acme.ana.Exceptions.ContaInvalidaException;
-import org.acme.ana.Exceptions.SaldoInsuficienteException;
-import org.acme.ana.Models.Cliente;
-import org.acme.ana.Models.ContaBancaria;
-import org.acme.ana.Models.ContaCorrente;
+import com.banco.Exceptions.ContaInvalidaException;
+import com.banco.Exceptions.SaldoInsuficienteException;
+import com.banco.Models.Cliente;
+import com.banco.Models.ContaBancaria;
+import com.banco.Models.ContaCorrente;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -75,7 +75,7 @@ public class ContaCorrenteServiceImpl implements ContaCorrenteService {
 
         String numeroConta = gerarNumeroContaUnico();
 
-        Cliente cliente = new Cliente();
+        Cliente cliente = new Cliente(); //ele não está aceitando passar argumentos (nome, cpf)
 
         ContaCorrente novaConta =  new ContaCorrente(numeroConta, 0.0, cliente);
         this.contasCorrentes.add(novaConta);

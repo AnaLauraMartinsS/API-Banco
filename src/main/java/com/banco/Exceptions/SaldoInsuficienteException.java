@@ -1,4 +1,4 @@
-package org.acme.ana.Exceptions;
+package com.banco.Exceptions;
 
 public class SaldoInsuficienteException extends Exception {
     public SaldoInsuficienteException(String mensagem) {
