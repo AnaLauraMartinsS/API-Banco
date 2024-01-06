@@ -75,7 +75,7 @@ public class ContaCorrenteServiceImpl implements ContaCorrenteService {
 
         String numeroConta = gerarNumeroContaUnico();
 
-        Cliente cliente = new Cliente(); //ele não está aceitando passar argumentos (nome, cpf)
+        Cliente cliente = new Cliente(nome, cpf);
 
         ContaCorrente novaConta =  new ContaCorrente(numeroConta, 0.0, cliente);
         this.contasCorrentes.add(novaConta);
