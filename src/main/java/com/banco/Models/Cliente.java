@@ -10,8 +10,16 @@ public class Cliente {
         this.cpf = cpf;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getCpf() {
+        return cpf;
+    }
+
     @Override
     public String toString() {
-        return "\n  Nome: " + nome + "\n  cpg: " + cpf;
+        return "\n  Nome: " + nome + "\n  CPF: " + cpf;
     }
 }

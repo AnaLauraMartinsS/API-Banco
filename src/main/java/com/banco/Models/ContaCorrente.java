@@ -21,8 +21,8 @@ public class ContaCorrente extends ContaBancaria{
     @Override
     public String toString() {
         return "\nConta Corrente:\n" +
-                " Numero da Conta =" + getNumeroConta() +
-                "\n Saldo =" + getSaldo() +
-                "\n Titular =" + getTitular();
+                " Numero da Conta :" + getNumeroConta() +
+                "\n Saldo :" + getSaldo() +
+                "\n Titular :" + getTitular();
     }
 }
