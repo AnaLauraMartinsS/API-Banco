@@ -1,4 +1,4 @@
-package com.banco.Models;
+package com.banco.models;
 
 public class Cliente {
 

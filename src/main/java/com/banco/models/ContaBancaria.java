@@ -1,6 +1,6 @@
-package com.banco.Models;
+package com.banco.models;
 
-import com.banco.Exceptions.SaldoInsuficienteException;
+import com.banco.exceptions.SaldoInsuficienteException;
 
 public class ContaBancaria {
     private String numeroConta;

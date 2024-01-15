@@ -1,10 +1,10 @@
-package com.banco.Service;
+package com.banco.service;
 
-import com.banco.Exceptions.ContaInvalidaException;
-import com.banco.Exceptions.SaldoInsuficienteException;
-import com.banco.Models.Cliente;
-import com.banco.Models.ContaBancaria;
-import com.banco.Models.ContaCorrente;
+import com.banco.exceptions.ContaInvalidaException;
+import com.banco.exceptions.SaldoInsuficienteException;
+import com.banco.models.Cliente;
+import com.banco.models.ContaBancaria;
+import com.banco.models.ContaCorrente;
 
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;

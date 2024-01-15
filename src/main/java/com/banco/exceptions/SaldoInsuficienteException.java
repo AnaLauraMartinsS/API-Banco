@@ -1,4 +1,4 @@
-package com.banco.Exceptions;
+package com.banco.exceptions;
 
 public class SaldoInsuficienteException extends Exception {
     public SaldoInsuficienteException(String mensagem) {

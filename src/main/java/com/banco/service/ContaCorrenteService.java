@@ -1,8 +1,8 @@
-package com.banco.Service;
+package com.banco.service;
 
-import com.banco.Exceptions.ContaInvalidaException;
-import com.banco.Models.ContaCorrente;
-import com.banco.Exceptions.SaldoInsuficienteException;
+import com.banco.exceptions.ContaInvalidaException;
+import com.banco.models.ContaCorrente;
+import com.banco.exceptions.SaldoInsuficienteException;
 
 public interface ContaCorrenteService {
     ContaCorrente getContaPorNumero(String numeroConta);
